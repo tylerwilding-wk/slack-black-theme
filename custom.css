@@ -773,7 +773,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
     background-color: var(--background);
 }
 
-div .tab_panels .tab_container {
+#flex_contents {
     background-color: var(--background);
 }
 
