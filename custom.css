@@ -16,24 +16,24 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #888;
-   --background: #111;
-   --background-elevated: #222;
+   --primary: #fcfaed;
+   --text: #fcfaed;
+   --background: #2b1f31;
+   --background-elevated: #413d65;
 
    /* These should be less important: */
-   --background-hover: rgba(255, 255, 255, 0.1);
-   --background-light: #AAA;
-   --background-bright: #FFF;
+   --background-hover: rgba(128, 128, 0, 0.1);
+   --background-light: #FF0000;
+   --background-bright: #00FF00;
 
-   --border-dim: #666;
-   --border-bright: var(--primary);
+   --border-dim: #413d65;
+   --border-bright: #413d65;
 
-   --text-bright: #888;
-   --text-special: var(--primary);
+   --text-bright: #bef992;
+   --text-special: #5fb9b0;
 
-   --scrollbar-background: #000;
-   --scrollbar-border: var(--primary);
+   --scrollbar-background: #5fb9b0;
+   --scrollbar-border: #413d65;
 }
 
 h1, h2, h3, h4 {
@@ -770,7 +770,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
 }
 .c-message__reply_bar--focus, .c-message__reply_bar:hover, .c-message__reply_bar--focus .c-message__reply_bar_view_thread, .c-message__reply_bar:hover .c-message__reply_bar_view_thread
 {
-    background-color: var(--background-elevated);
+    background-color: var(--background);
 }
 
 /* editor in thread reply */
