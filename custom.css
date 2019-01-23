@@ -773,8 +773,12 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
     background-color: var(--background);
 }
 
-#flex_contents {
+#flex_contents .tab_panels .tab_container {
     background-color: var(--background);
+}
+
+.ql-editor {
+    background-color: var(--background-elevated);
 }
 
 /* editor in thread reply */
