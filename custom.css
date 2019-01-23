@@ -777,7 +777,7 @@ ts-message.active .edited, ts-message.active .reply_bar .last_reply_at, ts-messa
     background-color: var(--background);
 }
 
-.ql-editor {
+#msg_text > div.ql-editor.focus-ring {
     background-color: var(--background-elevated);
 }
 
