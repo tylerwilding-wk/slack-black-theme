@@ -36,11 +36,12 @@ limitations under the License.
    --scrollbar-border: #413d65;
 }
 
-.p-message_input_field, .p-threads_footer__input, .p-threads_footer__input--legacy, .p-message_input {
+.p-threads_footer__input .p-message_input_field {
     background-color: var(--background);
 }
 
 .p-message_input_plus, .p-threads_footer__input--legacy, .p-message_input_plus {
+    background: var(--background);
     background-color: var(--background);
 }
 
