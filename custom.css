@@ -36,6 +36,14 @@ limitations under the License.
    --scrollbar-border: #413d65;
 }
 
+.p-message_input_field {
+    background-color: var(--background);
+}
+
+.p-message_input_plus {
+    background-color: var(--background);
+}
+
 h1, h2, h3, h4 {
   color: var(--text);
 }
