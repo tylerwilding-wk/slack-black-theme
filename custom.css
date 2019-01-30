@@ -41,8 +41,7 @@ limitations under the License.
 }
 
 .p-threads_footer__input--legacy .p-message_input_plus {
-    background: var(--background);
-    background-color: var(--background);
+    background: none;
 }
 
 h1, h2, h3, h4 {
