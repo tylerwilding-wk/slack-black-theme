@@ -44,11 +44,11 @@ limitations under the License.
     background: var(--background-bright);
 }
 
-.p-threads_view_default_background, .p-threads_view_reply--new_reply {
+.p-threads_view__default_background, .p-threads_view_reply--new_reply {
     background: var(--background);
 }
 
-.p-threads_viewer {
+.p-threads_view {
     background: var(--background);
 }
 
