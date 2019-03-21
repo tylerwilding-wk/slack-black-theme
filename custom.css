@@ -24,7 +24,7 @@ limitations under the License.
    /* These should be less important: */
    --background-hover: rgba(65, 61, 101, 0.1);
    --background-light: #FF0000;
-   --background-bright: #00FF00;
+   --background-bright: #bef992;
 
    --border-dim: #413d65;
    --border-bright: #413d65;
@@ -34,6 +34,22 @@ limitations under the License.
 
    --scrollbar-background: #5fb9b0;
    --scrollbar-border: #413d65;
+}
+
+.p-threads_view_header__permalink {
+    color: var(--text-bright) !important;
+}
+
+.p_threads_view_load_older_button {
+    background: var(--background-bright);
+}
+
+.p-threads_view_default_background, .p-threads_view_reply--new_reply {
+    background: var(--background);
+}
+
+.p-threads_viewer {
+    background: var(--background);
 }
 
 .p-threads_footer__input .p-message_input_field {
