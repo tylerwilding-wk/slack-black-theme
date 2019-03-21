@@ -41,15 +41,19 @@ limitations under the License.
 }
 
 .p_threads_view_load_older_button {
-    background: var(--background-bright);
+    background: var(--background-bright) !important;
 }
 
 .p-threads_view__default_background, .p-threads_view_reply--new_reply {
-    background: var(--background);
+    background: var(--background) !important;
+}
+
+div.p-threads_view {
+    background: var(--background) !important;
 }
 
 .p-threads_view {
-    background: var(--background);
+    background: var(--background) !important;
 }
 
 .p-threads_footer__input .p-message_input_field {
