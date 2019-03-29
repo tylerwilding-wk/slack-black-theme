@@ -75,6 +75,7 @@ hr {
 }
 
 .card {
+    color: var(--text);
     background: var(--background) !important;
 }
 
