@@ -75,12 +75,12 @@ hr {
 }
 
 .card {
-    color: black;
-    background: var(--background);
+    color: black !important;
+    background: var(--background) !important;
 }
 
 .card ~ h1 {
-    color: black;
+    color: black !important;
 }
 
 .c-message_kit__file__meta {
