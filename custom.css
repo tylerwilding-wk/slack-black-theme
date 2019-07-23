@@ -34,10 +34,40 @@ limitations under the License.
 
    --scrollbar-background: #5fb9b0;
    --scrollbar-border: #413d65;
+
+   --header-background: #3F0E40;
+}
+
+.p-classic_nav_channel_header {
+    background: var(--header-background);
+}
+
+.p-classic_nav__model__title__info {
+    color: var(--text-bright);
+}
+
+.p-workspace__primary_view_footer {
+    background: var(--background);
+}
+
+.p-workspace__input .p-message_input_field {
+    background: none;
+}
+
+.c-virtual_list--scrollbar {
+    background: var(--background);
+}
+
+.p-flexpane_header {
+    border-bottom: 1px solid var(--background-elevated);
+}
+
+.p-workspace__secondary_view {
+    border-left: 1px solid var(--background-elevated);
 }
 
 h1, h2, h3, h4 {
-  color: var(--text);
+    color: var(--text);
 }
 
 body {
