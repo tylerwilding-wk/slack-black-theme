@@ -38,8 +38,28 @@ limitations under the License.
    --header-background: #3F0E40;
 }
 
-.p-classic_nav_channel_header {
+.p-classic_nav {
     background: var(--header-background);
+}
+
+.p-classic_nav__no_drag {
+    color: var(--background-bright);
+}
+
+.p-classic_nav__model__button {
+    color: var(--background-bright);
+}
+
+.p-classic_nav__right__search {
+    border: 1px solid var(--background-bright);
+}
+
+.p-classic_nav__right__search__icon {
+    color: var(--background-bright);
+}
+
+.p-classic_nav__right__search__placeholder {
+    color: var(--background-bright);
 }
 
 .p-classic_nav__model__title__info {
