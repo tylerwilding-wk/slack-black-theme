@@ -39,27 +39,27 @@ limitations under the License.
 }
 
 .p-classic_nav {
-    background: var(--header-background);
+    background: var(--header-background) !important;
 }
 
 .p-classic_nav__no_drag {
-    color: var(--background-bright);
+    color: var(--background-bright) !important;
 }
 
 .p-classic_nav__model__button {
-    color: var(--background-bright);
+    color: var(--background-bright) !important;
 }
 
 .p-classic_nav__right__search {
-    border: 1px solid var(--background-bright);
+    border: 1px solid var(--background-bright) !important;
 }
 
 .p-classic_nav__right__search__icon {
-    color: var(--background-bright);
+    color: var(--background-bright) !important;
 }
 
 .p-classic_nav__right__search__placeholder {
-    color: var(--background-bright);
+    color: var(--background-bright) !important;
 }
 
 .p-classic_nav__model__title__info {
