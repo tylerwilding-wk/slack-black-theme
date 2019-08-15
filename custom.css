@@ -66,6 +66,14 @@ limitations under the License.
     color: var(--text-bright);
 }
 
+.workspace__primary_view_footer {
+    background: var(--background);
+}
+
+.p-workspace__message_pane_input_inner {
+    background: var(--background);
+}
+
 .p-workspace__primary_view_footer {
     background: var(--background);
 }
