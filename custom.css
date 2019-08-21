@@ -74,6 +74,18 @@ limitations under the License.
     background: var(--background);
 }
 
+.p-workspace__input .p-message_input_field.focus {
+    border-color: var(--background-elevated);
+}
+
+.p-workspace__input .p-message_input_field {
+    border-color: var(--background-elevated);
+}
+
+.c-icon {
+    color: var(--background-bright);
+}
+
 .p-workspace__primary_view_footer {
     background: var(--background);
 }
